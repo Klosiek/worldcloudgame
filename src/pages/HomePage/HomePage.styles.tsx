@@ -14,4 +14,5 @@ export const Input = styled.input`
   border-radius: 4px;
   border-width: 1.5px;
   border-style: solid;
+  outline: none;
 `;
