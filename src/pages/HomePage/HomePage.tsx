@@ -1,11 +1,13 @@
+import Header from "components/Header";
+import Button from "components/Button";
 import * as Styles from "./HomePage.styles";
 
 const HomePage = () => {
   return (
     <Styles.Container>
-      <Styles.Header size="32px">Wordcloud game</Styles.Header>
+      <Header size={32}>Wordcloud game</Header>
       <Styles.Input placeholder="Enter your nickname here..." />
-      <Styles.Button>play</Styles.Button>
+      <Button>play</Button>
     </Styles.Container>
   );
 };
