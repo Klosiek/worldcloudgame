@@ -4,8 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import { RoutesEnum } from "shared/types";
 const Routes = () => {
   const HomePage = lazy(() => import("pages/HomePage"));
-  //   const GameRoom = lazy(() => import("pages/GameRoom"));
-  const GameProvider = lazy(() => import("providers/GameProvider"));
+  // const GameBoard = lazy(() => import("pages/GameBoard"));
+  // const ScorePage = lazy(() => import("pages/ScorePage"));
   return (
     <Suspense fallback={<LoadingScreen />}>
       <Switch>
