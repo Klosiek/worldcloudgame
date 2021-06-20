@@ -1,14 +1,7 @@
-import "./App.css";
-import HomePage from "pages/HomePage";
-import GlobalStylesProvider from "providers/GlobalStylesProvider";
+import Providers from "providers";
 
 function App() {
-  return (
-    <>
-      <GlobalStylesProvider />
-      <HomePage />
-    </>
-  );
+  return <Providers />;
 }
 
 export default App;
