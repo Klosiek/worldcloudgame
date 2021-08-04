@@ -1,4 +1,4 @@
-# Rick and Morty characters
+# Worldcloud Game
 
 Showcase Project - React, TypeScript with styled-components (extra Plop with some Handlebars).
 
