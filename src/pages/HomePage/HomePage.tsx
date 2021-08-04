@@ -15,6 +15,9 @@ const HomePage = () => {
         value={userName}
         placeholder="Enter your nickname here..."
         onChange={(e) => setUserName(e.currentTarget.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") history.push(RoutesEnum.GameBoard);
+        }}
       />
       <SharedStyles.Button
         disabled={!userName}
